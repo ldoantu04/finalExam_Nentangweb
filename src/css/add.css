@@ -1,0 +1,68 @@
+.add-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 5px 30px;
+}
+.add-title i{
+    font-size: 20px;
+    cursor: pointer;
+}
+form{
+    padding: 5px 30px 5px 30px;
+}
+form .name, form .birth, form .position, form .status{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+form input{
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+form .submit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+}
+
+form button{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background: grey;
+    color: #fff;
+}
+#cancel{
+    background: white;
+    color: black;
+}
+
+#pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#pop #block{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
